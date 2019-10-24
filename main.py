@@ -9,3 +9,6 @@ print("The tax is {},{:.3f},{} ".format(price, tax, snake_string))
 def read():
     print("Read")
     print("")
+
+def another():
+    pass
