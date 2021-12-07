@@ -38,6 +38,9 @@ def odd_numbers(x):
     else:
         return False
 
+l = [4,5,667,8]
+print(list(filter(lambda x:x<10, l)))
+
 
 def main():
     new_l = filter(odd_numbers, myList)
